@@ -4,8 +4,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="">
-      <div className="container mx-auto py-4 flex justify-between items-center">
+    <nav>
+      <div className="py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold">Enzo Tiberghien</a>
         <div className="hidden md:flex space-x-6">
           <a href="#about" className="text-gray-700 hover:text-blue-500">About</a>
