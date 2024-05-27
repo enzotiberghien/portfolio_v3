@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -16,8 +16,9 @@ function App() {
         <About></About>
         <Skills></Skills>
         <Projects></Projects>
-        <Footer></Footer>
+        <Contact></Contact>
       </div >
+      <div className='mt-24 bg-orange text-white flex justify-center items-center h-16'>Enzo Tiberghien</div>
     </>
   )
 }

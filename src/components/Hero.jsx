@@ -11,8 +11,8 @@ const Hero = () => {
             <h1 className='text-center'>a <span className='text-orange font-medium'>Full Stack Developer</span></h1>
           </div>
           <div className='text-md md:text-lg lg:text-xl flex justify-center space-x-4 md:space-x-8'>
-            <button className='border border-orange rounded-lg py-2 px-12 text-orange min-w-36 md:min-w-44'>Projects</button>
-            <button className=' bg-orange rounded-lg py-1 px-8 text-white min-w-36 md:min-w-44'>Contact</button>
+            <a href="#projects" className='border border-orange rounded-lg py-2 px-12 text-orange min-w-36 md:min-w-44'>Projects</a>
+            <a href="#contact" className=' bg-orange rounded-lg py-2 px-12 text-white min-w-36 md:min-w-44'>Contact</a>
           </div>
         </div>
         <div className='flex mx-auto flex-col w-4/6 md:w-2/6'>
