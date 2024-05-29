@@ -3,7 +3,7 @@ const Skill = ({ img, name, small }) => {
     <>
       {small ? (
         <div className='flex flex-col items-center'>
-          <img src={img} alt={name} className='w-12 h-12' />
+          <img src={img} alt={name} className='w-8 h-8' />
           <div className="text-center">{name}</div>
         </div>
       ) : (

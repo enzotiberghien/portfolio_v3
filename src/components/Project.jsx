@@ -23,8 +23,11 @@ const Project = ({ name, img, desc, skills, code, live }) => {
           ))}
         </ul>
         <div className='text-md md:text-md lg:text-lg flex space-x-4 md:space-x-4'>
-          <a href={live} className='border border-orange rounded-lg py-2 px-12 text-orange min-32 md:min-w-32'>Live</a>
-          <a href={code} className='border bg-orange rounded-lg py-2 px-12 text-white min-w-32 md:min-w-32'>Code</a>
+          {live !== '' && (
+            <a href={live} className='border border-orange rounded-lg py-2 px-12 text-orange min-32 md:min-w-32 hover:bg-orange hover:text-white transition duration-300 ease-in-out transform hover:scale-105'>Live</a>
+
+          )}
+          <a href={code} className='border bg-orange rounded-lg py-2 px-12 text-white min-w-32 md:min-w-32 hover:bg-orange hover:text-white transition duration-300 ease-in-out transform hover:scale-105'>Code</a>
         </div>
       </div>
     </div>
