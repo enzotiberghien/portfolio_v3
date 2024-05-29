@@ -18,14 +18,6 @@ const projectsList = [
     code: "https://github.com/orgs/Software-Engineering-HKR/repositories",
     live: ""
   },
-  {
-    name: "Risk Assesment Mobile App",
-    img: smarthome,
-    desc: "I was part of an 8-developer team that followed Agile methodology to create an automated Arduino-based house system controllable via web and mobile applications, utilizing WebSocket technology for real-time data transmission. My responsibilities included developing the C++ code for house automation, managing the server, and contributing to the web frontend. We maintained comprehensive documentation and artefacts to ensure clarity and consistency throughout the project.",
-    skills: ['React', 'MongoDB', 'NodeJS', 'Express'],
-    code: "https://github.com/orgs/Software-Engineering-HKR/repositories",
-    live: ""
-  },
 ]
 
 export {
