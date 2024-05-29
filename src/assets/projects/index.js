@@ -5,10 +5,10 @@ const projectsList = [
   {
     name: "Orgonite40 e-commerce website",
     img: orgonite,
-    desc: "This project is developed for Orgonite Harmony 40, a company based in France dedicated to providing high-quality orgonite products. This project is an an e-commerce platform built with Node.js, Express, React and MongoDB. The application has both backend and frontend components, along with a content management system (Sanity) and payment processing (Stripe).",
+    desc: "This project is developed for Orgonite Harmony 40, a company based in France dedicated to providing high-quality orgonite products. This project is an an e-commerce platform built with Node.js, Express, React and MongoDB. The application has both backend and frontend components, along with a content management system (Sanity) and payment processing (Stripe). Unfortunately, Orgonite40 is no longer active, the payment functionnality is removed.",
     skills: ['React', 'MongoDB', 'NodeJS', 'Express'],
     code: "https://github.com/enzotiberghien/orgonite-shop",
-    live: "https://www.orgoniteharmony40.com/"
+    live: "https://orgonite-shop.vercel.app/"
   },
   {
     name: "Smart Home System",
