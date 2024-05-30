@@ -3,7 +3,7 @@ import Project from "./Project"
 
 const Projects = () => {
   return (
-    <div className='space-y-12 md-space-y-24' id='projects'>
+    <div className='space-y-16 md-space-y-24' id='projects'>
       <h2 className='text-2xl md:text-3xl font-medium'>My Projects <span className='text-orange'>/</span></h2>
       {projectsList.map((project, i) => (
         <Project
