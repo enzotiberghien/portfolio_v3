@@ -25,7 +25,7 @@ const skillsList = [
   { name: 'Tailwind', img: tailwind },
   { name: 'Java', img: java },
   { name: 'Python', img: python },
-  { name: 'docker', img: docker },
+  { name: 'Docker', img: docker },
   { name: 'C#', img: csharp },
   { name: 'TypeScript', img: typescript },
   { name: 'MySQL', img: mysql },
