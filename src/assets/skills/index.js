@@ -10,6 +10,10 @@ import python from './python.svg'
 import docker from './docker.svg'
 import typescript from './typescript.svg'
 import mysql from './mysql.svg'
+import kotlin from './kotlin.svg'
+import nextjs from './nextJS.svg'
+import dotnet from './dotnet.svg'
+import cplusplus from './c++.svg'
 
 const skillsList = [
   { name: 'React', img: react },
@@ -25,6 +29,10 @@ const skillsList = [
   { name: 'C#', img: csharp },
   { name: 'TypeScript', img: typescript },
   { name: 'MySQL', img: mysql },
+  { name: 'NextJS', img: nextjs },
+  { name: '.NET', img: dotnet },
+  { name: 'Kotlin', img: kotlin },
+  { name: 'C++', img: cplusplus },
 ]
 
 
