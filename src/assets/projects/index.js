@@ -34,6 +34,7 @@ const projectsList = [
     desc: "Myrmidon is an intuitive application designed to support mental health by tracking moods and tension levels throughout the day. As part of an agile team of four developers, I helped create four main functions: Mood Tracking, Tension Tracking, Journaling, and Statistics. Users can easily input their mood and tension using slider scales and write detailed journal entries with optional prompts. The app provides visual statistics of mood and tension fluctuations over time. Additional features include a daily positive fact and analysis of repeated words in journal entries. Built with Java and JavaFX, Myrmidon uses a MySQL database for data management",
     skills: ['Java', 'MySQL', 'Docker'],
     code: "https://github.com/enzotiberghien/Myrmidon",
+    live: "",
   },
 ]
 
