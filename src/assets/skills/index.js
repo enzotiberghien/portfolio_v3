@@ -22,7 +22,6 @@ const skillsList = [
   { name: 'JavaScript', img: javascript },
   { name: 'Tailwind', img: tailwind },
   { name: 'Express', img: express },
-  { name: 'Tailwind', img: tailwind },
   { name: 'Java', img: java },
   { name: 'Python', img: python },
   { name: 'Docker', img: docker },
