@@ -1,4 +1,4 @@
-import picture from "../assets/profile-picture.jpeg"
+import picture from "../assets/profile-picture.png"
 
 const Hero = () => {
   return (
